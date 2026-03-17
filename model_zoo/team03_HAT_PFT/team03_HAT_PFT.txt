@@ -1,1 +1,2 @@
 https://drive.google.com/file/d/1SUh7cuFPA3b_I9WI1mkH-qESEeppTrxY/view?usp=sharing
+wget https://drive.usercontent.google.com/download?id=1SUh7cuFPA3b_I9WI1mkH-qESEeppTrxY&export=download&authuser=0&confirm=t&uuid=45634c27-05c3-4ac3-b621-ec9c2cc5715d&at=AGN2oQ2-Xxj3Sx9jpW-do2-FVnHt:1773765036919 -OutFile results.zip
