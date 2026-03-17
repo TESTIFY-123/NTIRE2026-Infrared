@@ -25,8 +25,8 @@ def select_model(args, device):
         model_func = DAT
     elif model_id == 1:
         from models.team03_HAT_PFT import main as HAT_PFT
-        name = f"{model_id:02}_HAT_baseline"
-        model_path = os.path.join('model_zoo', 'team03_HAT_PFT/ensemble_model.pth')
+        name = f"{model_id:02}_HAT_PFT_baseline"
+        model_path = os.path.join('model_zoo', 'team03_HAT_PFT/HAT_PFT.pth')
         model_func = HAT_PFT
     else:
         raise NotImplementedError(f"Model {model_id} is not implemented.")

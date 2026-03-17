@@ -12,7 +12,7 @@ from utils import utils_image as util
 from .multi_model_avg_arch import MultiModelAverage
 
 from .hat_arch import hat_x4
-
+from .pft_arch import pft_x4
 
 def forward(img_lq, model, tile=None, tile_overlap=32, scale=4):
     if tile is None:
