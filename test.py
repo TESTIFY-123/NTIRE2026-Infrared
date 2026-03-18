@@ -23,7 +23,7 @@ def select_model(args, device):
         name = f"{model_id:02}_DAT_baseline"
         model_path = os.path.join('model_zoo', 'team00_dat.pth')
         model_func = DAT
-    elif model_id == 1:
+    elif model_id == 3:
         from models.team03_HAT_PFT import main as HAT_PFT
         name = f"{model_id:02}_HAT_PFT_baseline"
         model_path = os.path.join('model_zoo', 'team03_HAT_PFT/HAT_PFT.pth')
